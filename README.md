@@ -2,7 +2,7 @@
 
 > **kesh** object notation (or **kon**fig) format
 
-A concise, extensible data-interchange format based on [na](https://github.com/kesh-lang/na). A **kon** document is itself an object.
+**kon** is a concise, extensible data-interchange format based on [na](https://github.com/kesh-lang/na). A **kon** document is itself an object.
 
 Here is [TOML's example](https://toml.io/) written in **kon**:
 
