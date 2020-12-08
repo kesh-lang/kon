@@ -23,8 +23,8 @@ id: 43
 --- receive (success)
 rpc: 1.0
 res:
-	foo: { nInserted: 1 }
-	bar: { nInserted: 1 }
+	foo: { id: 1 }
+	bar: { id: 2 }
 id: 43
 
 --- receive (error)
