@@ -1,2 +1,3 @@
 # kon
-kesh object notation (or konfiguration file)
+
+> **kesh** object notation (or konfiguration) format
