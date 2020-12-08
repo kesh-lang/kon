@@ -1,4 +1,4 @@
--- example based on JSON-RPC 2.0
+-- example based on JSON-RPC (https://en.wikipedia.org/wiki/JSON-RPC#Examples)
 
 --- send
 rpc: 1.0
