@@ -1,3 +1,3 @@
 # kon
 
-> **kesh** object notation (or konfiguration) format
+> **kesh** **o**bject **n**otation (or *kon*figuration) format
