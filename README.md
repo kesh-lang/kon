@@ -11,7 +11,7 @@ title: 'Example'
 
 owner:
     name: 'Tom Preston-Werner'
-    dob: #instant "1979-05-27T07:32:00-08:00"
+    dob: #instant '1979-05-27T07:32:00-08:00'
 
 database:
     enabled: true
