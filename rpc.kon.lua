@@ -11,7 +11,7 @@ res: 19
 id: 42
 
 
--- example of multiple calls in one (a database transaction)
+-- example of multiple calls in one (eg. a database transaction)
 
 --- send
 rpc: 1.0
