@@ -2,7 +2,7 @@
 
 --- send
 rpc: 1.0
-req: #subtract { minuend: 42, subtrahend: 23 }
+req: #subtract({ minuend: 42, subtrahend: 23 })
 id: 42
 
 --- receive
