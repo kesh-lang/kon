@@ -23,9 +23,9 @@ database:
 
 servers:
     alpha:
-        ip: #IPv4 '10.0.0.1'
+        ip: '10.0.0.1'
         role: 'frontend'
     beta:
-        ip: #IPv4 '10.0.0.2'
+        ip: '10.0.0.2'
         role: 'backend'
 ```
