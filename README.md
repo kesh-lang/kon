@@ -4,7 +4,7 @@
 
 **kon** is a concise, extensible data-interchange format based on [na](https://github.com/kesh-lang/na).
 
-A **kon** document is itself an object, and every top-level identifier is a property of this object.
+A **kon** document is itself an object, of which every top-level identifier is a property.
 
 Here is [TOML's example](https://toml.io/) written in **kon**:
 
