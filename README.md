@@ -1,12 +1,12 @@
-# sevai
+# sode
 
-> **kesh** file format – suitable for the exchange or storage of records
+> **kesh** [tree structured](https://en.m.wikipedia.org/wiki/Tree_(data_structure)) file format
 
-**sevai** is the kesh word for _enclosure_, _envelope_.
+**sode** is the kesh word for _tree_ or _tree structure_.
 
-A **sevai** document is simply a [na](https://github.com/kesh-lang/na) record, of which every top-level identifier is a field.
+A **sode** document is simply a [na](https://github.com/kesh-lang/na) _record_, of which every top-level identifier is a field.
 
-Here is [TOML's example](https://toml.io/) written in **sevai**:
+Here is [TOML's example](https://toml.io/) written in **sode**:
 
 ```lua
 title: 'Example'
