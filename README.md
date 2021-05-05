@@ -22,7 +22,7 @@ database:
     enabled: true
 
 servers:
-    -- Braces are allowed but not required
+    -- Braces are not required for multiline records
     alpha:
         ip: '10.0.0.1'
         dc: 'eqdc10'
@@ -33,7 +33,7 @@ servers:
 clients:
     data: [ ["gamma", "delta"], [1, 2] ]
 
--- Line breaks are OK when inside arrays
+-- Line breaks can be used to separate array items
 hosts: [
     "alpha"
     "omega"
