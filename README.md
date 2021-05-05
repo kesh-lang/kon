@@ -1,10 +1,10 @@
 # sevai
 
-> **kesh** file format based on [na](https://github.com/kesh-lang/na)
+> **kesh** file format – suitable for the exchange or storage of records
 
 **sevai** is the kesh word for _enclosure_, _envelope_.
 
-A **sevai** document is a [na](https://github.com/kesh-lang/na) record, of which every top-level identifier is a field.
+A **sevai** document is simply a [na](https://github.com/kesh-lang/na) record, of which every top-level identifier is a field.
 
 Here is [TOML's example](https://toml.io/) written in **sevai**:
 
