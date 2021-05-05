@@ -1,6 +1,8 @@
 # arra
 
-**arra** is a concise, extensible data-interchange format based on [na](https://github.com/kesh-lang/na).
+> **kesh** data-interchange format based on [na](https://github.com/kesh-lang/na)
+
+**arra** is the kesh word for _word_ or _to speak_.
 
 An **arra** document is itself a record, of which every top-level identifier is a field.
 
