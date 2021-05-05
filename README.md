@@ -6,26 +6,36 @@
 
 A **sode** document is simply a [na](https://github.com/kesh-lang/na) _record_, of which every top-level identifier is a field.
 
-Here is [TOML's example](https://toml.io/) written in **sode**:
+Here is [TOML's example](https://github.com/toml-lang/toml/tree/1.0.0#example) written in **sode**:
 
 ```lua
-title: 'Example'
+title: 'Sode Example'
 
 owner:
     name: 'Tom Preston-Werner'
-    dob: #instant '1979-05-27T07:32:00-08:00'
+    dob: #instant '1979-05-27T07:32:00-08:00'  -- First class dates
 
 database:
-    enabled: true
+    server: '192.168.1.1'
     ports: [ 8001, 8001, 8002 ]
-    data: [ ['delta', 'phi'], [3.14] ]
-    temp-targets: { cpu: 79.5, case: 72.0 }
+    connections-max: 5000
+    enabled: true
 
 servers:
+    -- Braces are allowed but not required
     alpha:
         ip: '10.0.0.1'
-        role: 'frontend'
+        dc: 'eqdc10'
     beta:
         ip: '10.0.0.2'
-        role: 'backend'
+        dc: 'eqdc10'
+
+clients:
+    data: [ ["gamma", "delta"], [1, 2] ]
+
+-- Line breaks are OK when inside arrays
+hosts: [
+    "alpha"
+    "omega"
+]
 ```
