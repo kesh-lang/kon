@@ -1,12 +1,12 @@
-# arra
+# sevai
 
-> **kesh** data-interchange format based on [na](https://github.com/kesh-lang/na)
+> **kesh** file format based on [na](https://github.com/kesh-lang/na)
 
-**arra** is the kesh word for _word_ or _to speak_.
+**sevai** is the kesh word for _enclosure_, _envelope_.
 
-An **arra** document is itself a record, of which every top-level identifier is a field.
+A **sevai** document is a [na](https://github.com/kesh-lang/na) record, of which every top-level identifier is a field.
 
-Here is [TOML's example](https://toml.io/) written in **arra**:
+Here is [TOML's example](https://toml.io/) written in **sevai**:
 
 ```lua
 title: 'Example'
