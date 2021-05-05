@@ -1,12 +1,10 @@
-# kon
+# arra
 
-> **kesh** object notation (or **kon**fig) format
+**arra** is a concise, extensible data-interchange format based on [na](https://github.com/kesh-lang/na).
 
-**kon** is a concise, extensible data-interchange format based on [na](https://github.com/kesh-lang/na).
+An **arra** document is itself a record, of which every top-level identifier is a field.
 
-A **kon** document is itself an object, of which every top-level identifier is a property.
-
-Here is [TOML's example](https://toml.io/) written in **kon**:
+Here is [TOML's example](https://toml.io/) written in **arra**:
 
 ```lua
 title: 'Example'
