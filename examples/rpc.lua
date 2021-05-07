@@ -2,7 +2,7 @@
 
 --- send
 rpc: 1.0
-req: #subtract({ minuend: 42, subtrahend: 23 })
+req: #subtract(minuend: 42, subtrahend: 23)
 id: 42
 
 --- receive
@@ -16,15 +16,15 @@ id: 42
 --- send
 rpc: 1.0
 req:
-	foo: #insert({ name: 'foo' })
-	bar: #insert({ name: 'bar' })
+	foo: #insert(name: 'foo')
+	bar: #insert(name: 'bar')
 id: 43
 
 --- receive (success)
 rpc: 1.0
 res:
-	foo: { id: 1, name: 'foo', created: #instant '2020-12-10T23:09:13Z' }
-	bar: { id: 2, name: 'bar', created: #instant '2020-12-10T23:09:13Z' }
+	foo: (id: 1, name: 'foo', created: #instant '2020-12-10T23:09:13Z')
+	bar: (id: 2, name: 'bar', created: #instant '2020-12-10T23:09:13Z')
 id: 43
 
 --- receive (error)
