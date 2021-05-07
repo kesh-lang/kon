@@ -7,7 +7,7 @@ owner:
     dob: #instant '1979-05-27T07:32:00-08:00'  -- First class dates
 
 database:
-    server: #ipv4 '192.168.1.1'
+    server: #ipv4 '192.168.1.1'  -- Tagged values
     ports: (8001, 8001, 8002)
     connections-max: 5000
     enabled: true
@@ -30,4 +30,3 @@ clients:
 hosts:
     'alpha'
     'omega'
-]
