@@ -1,6 +1,6 @@
 # sode
 
-> **kesh** [tree structured](https://en.m.wikipedia.org/wiki/Tree_(data_structure)) file format – suitable for configuration files
+> **kesh** [tree structured](https://en.m.wikipedia.org/wiki/Tree_(data_structure)) data format – suitable for configuration files
 
 **sode** is the kesh word for _tree_ or _tree structure_.
 
