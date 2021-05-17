@@ -30,10 +30,7 @@ servers:
         ip: #ipv4 '10.0.0.2'
         dc: 'eqdc10'
 
-clients:
-    data:
-        ('gamma', 'delta')
-        (1, 2)
+clients.data: (('gamma', 'delta'), (1, 2))
 
 -- Line breaks can be used to separate array items
 hosts:
