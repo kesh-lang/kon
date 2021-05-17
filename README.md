@@ -21,8 +21,7 @@ database:
     connections-max: 5000
     enabled: true
 
-servers:
-    -- Parens are not required for multiline records
+servers:  -- Brackets are not required for multiline records
     alpha:
         ip: #ipv4 '10.0.0.1'
         dc: 'eqdc10'
