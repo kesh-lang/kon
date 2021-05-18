@@ -1,6 +1,5 @@
-GameConfig(
-    window_size: (800, 600)
-    window_title: 'PAC-MAN'
+data: GameConfig(
+    window_size: (800, 600), window_title: 'PAC-MAN'
     fullscreen: false
     
     mouse_sensitivity: 1.4
