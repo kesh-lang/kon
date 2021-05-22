@@ -9,12 +9,12 @@ data: GameConfig(
         'left': Left
         'right': Right
         
-        -- --( Uncomment to enable WASD controls
+        -- (-- Uncomment to enable WASD controls
         -- 'W': Up
         -- 'A': Down
         -- 'S': Left
         -- 'D': Right
-        -- )--
+        -- --)
     }
     
     difficulty_options: (
