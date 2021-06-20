@@ -8,7 +8,7 @@ A **sode** document is a [na](https://github.com/kesh-lang/na) _record_, of whic
 
 It supports the extension of values by tagging.
 
-Here is [TOML's example](https://github.com/toml-lang/toml/tree/1.0.0#example) written in **sode**:
+Below is [TOML's example](https://github.com/toml-lang/toml/tree/1.0.0#example) written in **sode**:
 
 ```lua
 title: 'Sode Example'
