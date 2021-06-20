@@ -1,10 +1,10 @@
 # sode
 
-> **kesh** [tree structured](https://en.m.wikipedia.org/wiki/Tree_(data_structure)) data format – suitable for configuration files
+> **kesh** [tree structured](https://en.m.wikipedia.org/wiki/Tree_(data_structure)) data format – suitable for the serialization of data
 
 **sode** is the kesh word for _tree_ or _tree structure_.
 
-A **sode** document is simply a [na](https://github.com/kesh-lang/na) _record_, of which every top-level identifier is a field.
+A **sode** document is a [na](https://github.com/kesh-lang/na) _record_, of which every top-level identifier is a field. It supports the extension of values by tagging.
 
 Here is [TOML's example](https://github.com/toml-lang/toml/tree/1.0.0#example) written in **sode**:
 
