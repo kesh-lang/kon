@@ -4,7 +4,9 @@
 
 **sode** is the kesh word for _tree_ or _tree structure_.
 
-A **sode** document is a [na](https://github.com/kesh-lang/na) _record_, of which every top-level identifier is a field. It supports the extension of values by tagging.
+A **sode** document is a [na](https://github.com/kesh-lang/na) _record_, of which every top-level identifier is a field.
+
+It supports the extension of values by tagging.
 
 Here is [TOML's example](https://github.com/toml-lang/toml/tree/1.0.0#example) written in **sode**:
 
