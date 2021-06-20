@@ -17,7 +17,7 @@ owner:
 
 database:
     server: ipv4 '192.168.1.1'  -- Tagged values
-    ports: (8000, 8001, 8002)
+    ports: [8000, 8001, 8002]
     connections-max: 5000
     enabled: true
 
