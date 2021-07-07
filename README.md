@@ -6,7 +6,7 @@
 
 A **sode** document is simply a [na](https://github.com/kesh-lang/na) _record_, of which every top-level identifier is a field.
 
-Below is [TOML's example](https://github.com/toml-lang/toml/tree/1.0.0#example) written in **sode**:
+Below is [TOML's example](https://github.com/toml-lang/toml/tree/1.0.0#example) written in minimal **sode**:
 
 ```lua
 title: 'Sode Example'
